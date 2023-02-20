@@ -5,8 +5,7 @@ import pytz
 from dateutil.relativedelta import relativedelta
 from ics import Calendar, Event
 from ics.alarm.display import DisplayAlarm
-from ics.parse import ContentLine
-
+from ics.grammar.parse import ContentLine
 
 class Course(object):
 
