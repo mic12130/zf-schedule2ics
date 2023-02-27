@@ -42,17 +42,17 @@ class CourseTime(object):
 FIRST_WEEK_MONDAY = datetime.date(2021, 8, 30)
 
 COURSE_TIME_MAP = {
-    1: CourseTime('08:20', '09:00'),
-    2: CourseTime('09:10', '09:50'),
-    3: CourseTime('10:00', '10:40'),
+    1: CourseTime('08:30', '09:10'),
+    2: CourseTime('09:15', '09:55'),
+    3: CourseTime('10:05', '10:45'),
     4: CourseTime('10:50', '11:30'),
-    5: CourseTime('13:50', '14:30'),
-    6: CourseTime('14:40', '15:20'),
-    7: CourseTime('15:30', '16:10'),
-    8: CourseTime('16:20', '17:00'),
+    5: CourseTime('13:30', '14:10'),
+    6: CourseTime('14:15', '15:55'),
+    7: CourseTime('15:05', '16:45'),
+    8: CourseTime('16:50', '17:30'),
     9: CourseTime('18:40', '19:20'),
     10: CourseTime('19:25', '20:05'),
-    11: CourseTime('20:20', '21:00'),
+    11: CourseTime('20:10', '20:50'),
 }
 
 courses = []
